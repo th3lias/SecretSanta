@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: SecretSanta
+  data:
+    mongodb:
+      auto-index-creation: true
+      uri: mongodb://admin:password@localhost:27017/SecretSanta?authSource=admin
